@@ -2,7 +2,7 @@
 
 An autonomous AI agent team built with [CrewAI](https://crewai.com) that automates the end-to-end software development lifecycle. This system takes high-level natural language requirements and orchestrates a collaborative workflow between specialized AI agents to generate system architecture, functional backend code, interactive UIs, and comprehensive unit tests.
 
-## 🚀 Architecture
+## Architecture
 
 The project leverages a multi-agent system where each agent is assigned a specific role and equipped with an optimized LLM to handle discrete phases of software development.
 
@@ -81,7 +81,7 @@ Ensure you have Python >=3.10 and <3.14 installed on your system. This project u
    GEMINI_API_KEY=your_gemini_key
    ```
 
-## 🚀 Running the Project
+## Running the Project
 
 To execute the multi-agent crew, run the following command from the root directory:
 
@@ -97,6 +97,6 @@ python -m team.main
 
 By default, the agents will read the requirements defined in `src/team/main.py` (e.g., building an inventory management system) and output the resulting architecture document, python classes, UI, and test files into the `output/` directory.
 
-## 🔧 Customizing Requirements
+## Customizing Requirements
 
 You can change the software being built by updating the `requirements` variable inside `src/team/main.py`. Provide detailed natural language instructions, and the crew will adapt and generate the requested software.
