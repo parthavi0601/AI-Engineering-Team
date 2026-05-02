@@ -47,13 +47,13 @@ graph TD
 
 All generated artifacts are automatically saved to the `output/` directory.
 
-## 🛠️ Tech Stack
+## Tech Stack
 
 - **Framework**: CrewAI
 - **LLMs**: OpenAI (GPT-4o-mini), Groq (Llama-3.1), Google GenAI (Gemini)
 - **UI & Tools**: Gradio, Python, uv (dependency management)
 
-## ⚙️ Installation & Setup
+## Installation & Setup
 
 Ensure you have Python >=3.10 and <3.14 installed on your system. This project uses [uv](https://docs.astral.sh/uv/) for fast dependency management.
 
